@@ -19,21 +19,21 @@ To get started with this project, you'll need to have Python installed on your m
    cd housing-price-prediction
 Create a virtual environment:
 
-bash
+```bash
 Copy code
 python -m venv venv
 source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
 Install the required packages:
-
-bash
+```
+```bash
 Copy code
 pip install -r requirements.txt
 Usage Instructions
 To use the housing price prediction model, follow these steps:
-
+```
 Ensure you have set up the project as per the installation instructions.
 Run the Jupyter notebook:
-bash 
+```bash 
 Copy code
 jupyter notebook Housing.ipynb
 Follow the steps in the notebook to train the model and make predictions.
@@ -45,18 +45,21 @@ Model evaluation and comparison
 Visualization of results
 Contributing Guidelines
 We welcome contributions to enhance the project. To contribute, follow these steps:
-
+```
 Fork the repository.
 Create a new branch for your feature or bugfix:
-bash
+```bash
 Copy code
 git checkout -b feature/your-feature-name
+```
 Commit your changes:
-bash
+```bash
 Copy code
 git commit -m "Add your feature description"
+```
 Push to the branch:
-bash
+```bash
 Copy code
 git push origin feature/your-feature-name
+```
 Create a pull request on GitHub.
